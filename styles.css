@@ -1,0 +1,89 @@
+.container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+h1 > img {
+  width: 6.3rem;
+}
+
+.invisible {
+  opacity: 0; 
+}
+
+.buttton {
+  margin-top: 9rem;
+  font-size: 3.7rem;
+  font-weight: bold;
+  font-family:'Courier New', Courier, monospace ;
+  letter-spacing: 3px;
+  background-color: rgb(161, 0, 0);
+  color: white;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1266px) {
+  .container {
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 6rem;
+  }
+
+  h1 > img {
+    width: 6rem;
+
+  }
+
+  .img1 , .img2 {
+    width: 20rem;
+  }
+
+  .dice {
+    margin-right: 21px;
+    margin-left: 21px;
+  }
+
+  .dice > p {
+    font-size: 80px;
+    margin-bottom: 39px;
+  }
+}
